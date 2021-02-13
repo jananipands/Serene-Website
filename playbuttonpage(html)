@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- css file link -->
+  <link rel="stylesheet" href="/treehacks_website.css"type="text/css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+<!-- serene title -->
+<div class="main_text">
+  <div class="text text0">s</div>
+  <div class="text text1">e</div>
+  <div class="text text2">r</div>
+  <div class="text text3">e</div>
+  <div class="text text4">n</div>
+  <div class="text text5">e</div>
+</div>
+<!-- feelings titles -->
+<!--<div class="feelings">
+  <div class="text text6"><br>sad</div>
+  <div class="text text7"><br>happy</div> 
+  <div class="text text8"><br>angry</div>
+</div>-->
+
+<!-- play button -->
+<div class="container"><a class="button button-play" href="href"></a></div>
+</body>
+</html>
