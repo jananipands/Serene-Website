@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+/* default css styling*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body 
+{
+  font-family: 'Montserrat', sans-serif;
+  background: #8E9970;
+  position: relative;
+  overflow: hidden;
+  font-size: 100%;
+  text-align: center;
+}
+.title 
+{ font-size: 2rem;
+  position: absolute;
+  top: 5%;
+  left: 44%;
+  height: 0;
+  width: 0;
+}
+
+/* background*/
+.background 
+{ position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 0;
+}
+/*animation*/
+.animate__animated.animate__fadeInLeftBig 
+{ --animate-duration: 0.5s;
+}
+
+/*emojibox*/
+
+
+.emojibox 
+{ display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10rem 0;
+}
+
+.emojibox__wrapper 
+{ margin-top: 10%;
+}
+.emojibox__wrapper h2
+{ font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.emoji
+{ display: flex;
+  text-align:center;
+  width: auto;
+  justify-content: center;
+}
+.emoji .emojibox1 
+{ background: #ffffff;
+  color:#73AD21;
+  text-transform: uppercase;
+  margin: 5px; 
+  padding: 30px; 
+  width: 300px;
+  border-radius: 25px;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.emoji .emojibox2 
+{ background: #ffffff;
+  color:#73AD21;
+  text-transform: uppercase;
+  margin: 5px; 
+  padding: 30px; 
+  width: 300px;
+  border-radius: 25px;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+.emoji .emojibox3 
+{ background: #ffffff;
+  color:#73AD21;
+  text-transform: uppercase;
+  margin: 5px; 
+  padding: 30px; 
+  width: 300px;
+  border-radius: 25px;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+
+.emoji .emojibox4
+{ background: #ffffff;
+  color:#73AD21;
+  text-transform: uppercase;
+  margin: 5px; 
+  padding: 30px; 
+  width: 300px;
+  border-radius: 25px;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+
+
