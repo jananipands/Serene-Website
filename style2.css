@@ -1,0 +1,19 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  background: #394F49;
+  scroll: none;
+}
+.emoji1{
+  margin: 0px !important;
+  display: inline !important;
+  height: auto;
+  width: 50px;
+}

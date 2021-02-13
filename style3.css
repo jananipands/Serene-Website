@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  body {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    background: #394F49;
+    scroll: none;
+  }
