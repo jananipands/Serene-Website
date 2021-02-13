@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+/* default css styling*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #8E9970;
+  position: relative;
+  overflow: hidden;
+  font-size: 100%;
+  text-align: center;
+}
+.title {
+  font-size: 2rem;
+  position: absolute;
+  top: 2%;
+  left: 44%;
+  height: 0;
+  width: 0;
+}
+
+/* background*/
+.background {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 0;
+}
+/*animation*/
+.animate__animated.animate__fadeInLeftBig {
+  --animate-duration: 0.5s;
+}
+
+/*emojibox*/
+
+
+.emojibox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10rem 0;
+}
+
+.emojibox__wrapper {
+  margin-top: 10%;
+}
+.emojibox__wrapper h3{
+  font-family: ;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.emoji{
+  display: flex;
+  text-align:center;
+  width: auto;
+  justify-content: center;
+}
+.emoji .emojibox1 {
+  background: #73AD21;
+  margin: 5px; 
+  margin-bottom: 50px;
+  width: 300px;
+  height: px;
+  border-radius: 25px;
+  padding: 20px;   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: right;
+  height: 100%;
+}
+.emojibox2 {
+  background: #73AD21;
+  margin: 5px; 
+  margin-bottom: 50px;
+  width: 300px;
+  height: px;
+  border-radius: 25px;
+  padding: 20px;   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: right;
+  height: 100%;
+}
+.emojibox3 {
+  background: #73AD21;
+  margin: 5px; 
+  margin-bottom: 50px;
+  width: 300px;
+  height: px;
+  border-radius: 25px;
+  padding: 20px;   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: right;
+  height: 100%;
+}
+
