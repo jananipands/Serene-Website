@@ -1,20 +1,18 @@
+//variables
 const db = firebase.database();
 let msg;
 
 document.getElementById("send").addEventListener('click',()=>{
     let id = db.ref().child('chats').push().key;
     msg = document.getElementById("msg").value;
-    db.ref("chats/"+id).set({
-        user:"pranav",
-        message: msg,
+    db.ref("/chats"+id).set({
+        Name:"Namrutha",
+        Message: msg,
     })
 })
 
-let chats = document.getElementById("chats");
 
-//auth
-//firebase database
-//render chats
+let chats = document.getElementById("chats");
 
 
 db.ref("/chats").on("value",snap=>{
