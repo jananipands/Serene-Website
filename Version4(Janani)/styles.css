@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@300&family=Open+Sans:wght@300&family=Quicksand:wght@500&display=swap');
 
 /* default css styling*/
 *{
@@ -9,7 +9,7 @@
 
 body 
 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Krub', sans-serif;
   background: #8E9970;
   position: relative;
   overflow: hidden;
@@ -17,12 +17,19 @@ body
   text-align: center;
 }
 .title 
-{ font-size: 2rem;
+{ 
+  font-size: 4rem;
+  font-weight: 500;
   position: absolute;
   top: 5%;
-  left: 44%;
+  left: 42%;
   height: 0;
   width: 0;
+}
+
+h1{
+    font-family: 'Krub', sans-serif;
+    font-weight: 300;
 }
 
 /* background*/
@@ -33,8 +40,9 @@ body
   width: 0;
 }
 /*animation*/
-.animate__animated.animate__fadeInLeftBig 
-{ --animate-duration: 0.5s;
+.animate__animated.animate__pulse 
+{ 
+    --animate-duration: 1s;
 }
 
 /*emojibox*/
@@ -64,9 +72,9 @@ body
 .emoji .emojibox1 
 { background: #ffffff;
   color:#73AD21;
-  text-transform: uppercase;
-  margin: 5px; 
-  padding: 30px; 
+  text-transform: uppercase; 
+  margin: 20px;
+  padding: 25px; 
   width: 300px;
   border-radius: 25px;  
   display: flex;
@@ -77,9 +85,9 @@ body
 .emoji .emojibox2 
 { background: #ffffff;
   color:#73AD21;
-  text-transform: uppercase;
-  margin: 5px; 
-  padding: 30px; 
+  text-transform: uppercase; 
+  margin: 20px;
+  padding: 25px; 
   width: 300px;
   border-radius: 25px;  
   display: flex;
@@ -89,9 +97,9 @@ body
 .emoji .emojibox3 
 { background: #ffffff;
   color:#73AD21;
-  text-transform: uppercase;
-  margin: 5px; 
-  padding: 30px; 
+  text-transform: uppercase; 
+  margin: 20px;
+  padding: 25px; 
   width: 300px;
   border-radius: 25px;  
   display: flex;
@@ -102,9 +110,9 @@ body
 .emoji .emojibox4
 { background: #ffffff;
   color:#73AD21;
-  text-transform: uppercase;
-  margin: 5px; 
-  padding: 30px; 
+  text-transform: uppercase; 
+  margin: 20px;
+  padding: 25px; 
   width: 300px;
   border-radius: 25px;  
   display: flex;
@@ -113,16 +121,17 @@ body
 }
 
 .header{
-    text-align: left;
-    font-size: 30px;
+    text-align: center;
+    font-size: 25px;
     color:black;
-    font-weight:300;
+    font-weight:400;
 }
 .music-player{
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-2%, -50%);
     border-radius: 25px;
     box-shadow: 5px 5px 8px #888888;
 }
+
