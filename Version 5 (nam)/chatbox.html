@@ -10,33 +10,44 @@
 </head>
 
 <body>
-    <h2 class="head">Realtime Chat</h2>
+
     <div class="box">
+
         <div class="chat-box">
             <div class="chat-body">
+
                 <ul id="chats">
-                    <li>a:hi</li>
+                    <li>Sam: Hi</li>
+                    <li>Max: Hi</li>
+                    <li>Sam: How are you feeling today?</li>
+                    <li>Max: I was feeling low, but I feel better now!</li>
+                    <li>Max: That's great 😊 !</li>
                 </ul>
+
             </div>
+
             <div class="btn">
                 <input type="text" id="msg"/>
                 <button id="send">Send</button>
             </div>
+
         </div>
     </div>
 </body>
 
-<!-- The core Firebase JS SDK is always required and must be listed first -->
+<!-- Core Firebase JS SDK -->
 <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
 
+
+<!-- Imports database into web app to use database storage -->
 <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-database.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-analytics.js"></script>
+
 <script>
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    // Connects database to firebase account
     var firebaseConfig = {
         apiKey: "#",
         authDomain: "#",
@@ -52,6 +63,6 @@
     firebase.analytics();
 
 </script>
-    <script src="./chatboxmain.js"></script>
-    
+    <script src="/chatboxmain.js"></script>
+
 </html>
